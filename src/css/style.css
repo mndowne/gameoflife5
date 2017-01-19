@@ -88,7 +88,7 @@ body {
     background-color: #646496; }
   @media screen and (max-width: 610px) {
     #start {
-      width: 50px;
+      width: 40px;
       font-size: 80%;
       height: 12px;
       margin: 4px;
@@ -112,7 +112,7 @@ body {
     background-color: #646496; }
   @media screen and (max-width: 610px) {
     #step {
-      width: 50px;
+      width: 40px;
       font-size: 80%;
       height: 12px;
       margin: 4px;
@@ -137,7 +137,7 @@ body {
     background-color: #646496; }
   @media screen and (max-width: 610px) {
     #stop {
-      width: 50px;
+      width: 40px;
       font-size: 80%;
       height: 12px;
       margin: 5px; } }
@@ -164,7 +164,7 @@ body {
       height: 12px;
       margin-left: 4px;
       font-size: 80%;
-      width: 35px; } }
+      width: 30px; } }
   @media screen and (max-width: 410px) {
     #fast {
       width: 25px; } }
@@ -207,7 +207,7 @@ body {
     #slow {
       height: 12px;
       font-size: 80%;
-      width: 35px; } }
+      width: 30px; } }
   @media screen and (max-width: 410px) {
     #slow {
       width: 30px; } }
@@ -227,7 +227,7 @@ body {
     background-color: #646496; }
   @media screen and (max-width: 610px) {
     #clear {
-      width: 50px;
+      width: 40px;
       font-size: 80%;
       height: 12px;
       margin: 4px;
@@ -259,7 +259,7 @@ body {
     #randomBoard {
       margin-left: 1px;
       margin-right: 0px;
-      width: 80px;
+      width: 75px;
       font-size: 60%;
       padding: 0px;
       padding-top: 6px;
@@ -277,7 +277,7 @@ body {
   background-color: #a0a03c; }
   @media screen and (max-width: 610px) {
     #generation {
-      width: 145px;
+      width: 140px;
       font-size: 80%;
       height: 12px;
       margin: 4px;
@@ -285,6 +285,8 @@ body {
   @media screen and (max-width: 410px) {
     #generation {
       margin: 0px;
-      width: 110px; } }
+      width: 110px;
+      padding-left: 2px;
+      padding-right: 2px; } }
 
 /*# sourceMappingURL=style.css.map */
