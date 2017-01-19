@@ -1,3 +1,8 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
+require('./css/style.css');
+
 var screenSize = document.getElementById('screenSize');
 var style = window.getComputedStyle(screenSize);
 var width1 = style.getPropertyValue('width');

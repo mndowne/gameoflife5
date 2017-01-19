@@ -1,0 +1,290 @@
+#screenSize {
+  width: 1201px; }
+  @media screen and (max-width: 1200px) {
+    #screenSize {
+      width: 611px; } }
+  @media screen and (max-width: 610px) {
+    #screenSize {
+      width: 411px; } }
+  @media screen and (max-width: 410px) {
+    #screenSize {
+      width: 201px; } }
+
+body {
+  background-color: #323232; }
+
+#house {
+  background-color: #a0a03c;
+  width: 1000px;
+  height: 665px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid #c8fa00; }
+  @media screen and (max-width: 1200px) {
+    #house {
+      width: 600px;
+      height: 665px; } }
+  @media screen and (max-width: 610px) {
+    #house {
+      padding: 5px;
+      width: 400px;
+      height: 550px; } }
+  @media screen and (max-width: 410px) {
+    #house {
+      padding: 3px;
+      width: 310px;
+      height: 450px; } }
+
+.square {
+  display: inline-block;
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  margin: 1px;
+  padding: 0px;
+  cursor: pointer; }
+
+#board {
+  margin: auto;
+  width: 1000px; }
+  @media screen and (max-width: 1200px) {
+    #board {
+      width: 600px; } }
+  @media screen and (max-width: 610px) {
+    #board {
+      width: 400px; } }
+  @media screen and (max-width: 410px) {
+    #board {
+      width: 310px; } }
+
+#menu {
+  height: 100px;
+  width: 560px;
+  background-color: #3c3c64;
+  margin: auto;
+  border-radius: 10px;
+  border: solid #c8fa00; }
+  @media screen and (max-width: 610px) {
+    #menu {
+      width: 390px;
+      height: 70px; } }
+  @media screen and (max-width: 410px) {
+    #menu {
+      width: 300px; } }
+
+#start {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #start:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #start {
+      width: 50px;
+      font-size: 80%;
+      height: 12px;
+      margin: 4px;
+      margin-bottom: 2px; } }
+  @media screen and (max-width: 410px) {
+    #start {
+      width: 35px; } }
+
+#step {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #step:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #step {
+      width: 50px;
+      font-size: 80%;
+      height: 12px;
+      margin: 4px;
+      margin-bottom: 2px; } }
+  @media screen and (max-width: 410px) {
+    #step {
+      width: 35px; } }
+
+#stop {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #stop:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #stop {
+      width: 50px;
+      font-size: 80%;
+      height: 12px;
+      margin: 5px; } }
+  @media screen and (max-width: 410px) {
+    #stop {
+      width: 35px; } }
+
+#fast {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  padding: 5px;
+  margin: 0px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 10px 0px 0px 10px;
+  border: solid #c8fa00;
+  background-color: #e6fa55;
+  cursor: pointer; }
+  #fast:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #fast {
+      height: 12px;
+      margin-left: 4px;
+      font-size: 80%;
+      width: 35px; } }
+  @media screen and (max-width: 410px) {
+    #fast {
+      width: 25px; } }
+
+#medium {
+  display: inline-block;
+  height: 20px;
+  width: 65px;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #medium:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #medium {
+      height: 12px;
+      font-size: 80%;
+      width: 50px; } }
+  @media screen and (max-width: 410px) {
+    #medium {
+      width: 48px; } }
+
+#slow {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #slow:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #slow {
+      height: 12px;
+      font-size: 80%;
+      width: 35px; } }
+  @media screen and (max-width: 410px) {
+    #slow {
+      width: 30px; } }
+
+#clear {
+  display: inline-block;
+  height: 20px;
+  width: 80px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #clear:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #clear {
+      width: 50px;
+      font-size: 80%;
+      height: 12px;
+      margin: 4px;
+      margin-bottom: 2px; } }
+  @media screen and (max-width: 410px) {
+    #clear {
+      width: 35px; } }
+
+#randomBoard {
+  display: inline-block;
+  height: 20px;
+  width: 180px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c;
+  cursor: pointer; }
+  #randomBoard:hover {
+    background-color: #646496; }
+  @media screen and (max-width: 610px) {
+    #randomBoard {
+      height: 12px;
+      font-size: 70%;
+      width: 110px; } }
+  @media screen and (max-width: 410px) {
+    #randomBoard {
+      margin-left: 1px;
+      margin-right: 0px;
+      width: 80px;
+      font-size: 60%;
+      padding: 0px;
+      padding-top: 6px;
+      padding-bottom: 4px; } }
+
+#generation {
+  display: inline-block;
+  height: 20px;
+  width: 170px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: solid #c8fa00;
+  background-color: #a0a03c; }
+  @media screen and (max-width: 610px) {
+    #generation {
+      width: 145px;
+      font-size: 80%;
+      height: 12px;
+      margin: 4px;
+      margin-bottom: 2px; } }
+  @media screen and (max-width: 410px) {
+    #generation {
+      margin: 0px;
+      width: 110px; } }
+
+/*# sourceMappingURL=style.css.map */
