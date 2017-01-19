@@ -4,17 +4,38 @@ $board: rgb(160,160,60)
 $menu: rgb(60,60,100)
 $button: rgb(100,100,150)
 
+#screenSize
+    width: 1201px
+    @media screen and (max-width: 1200px)
+        width: 611px
+    @media screen and (max-width: 610px)
+        width: 411px
+    @media screen and (max-width: 410px)
+        width: 201px
+
 body
     background-color: rgb(50,50,50)
 
 #house
     background-color: $board
-    width: 600px
-    height: 655px
+    width: 1000px
+    height: 665px
     margin: auto
     padding: 10px
     border-radius: 10px
     border: solid $border
+    @media screen and (max-width: 1200px)
+        width: 600px
+        height: 665px
+    @media screen and (max-width: 610px)
+        padding: 5px
+        width: 400px
+        height: 550px
+    @media screen and (max-width: 410px)
+        padding: 3px
+        width: 310px
+        height: 450px
+
 
 .square
     display: inline-block
@@ -27,15 +48,27 @@ body
 
 #board
     margin: auto
-    width: 600px
+    width: 1000px
+    @media screen and (max-width: 1200px)
+        width: 600px
+    @media screen and (max-width: 610px)
+        width: 400px
+    @media screen and (max-width: 410px)
+        width: 310px
 
 #menu
     height: 100px
-    width: 590px
+    width: 560px
     background-color: $menu
     margin: auto
     border-radius: 10px
     border: solid $border
+    @media screen and (max-width: 610px)
+        width: 390px
+        height: 70px
+    @media screen and (max-width: 410px)
+        width: 300px
+
 
 #start
     display: inline-block
@@ -50,6 +83,120 @@ body
     cursor: pointer
     &:hover
         background-color: $button
+    @media screen and (max-width: 610px)
+        width: 50px
+        font-size: 80%
+        height: 12px
+        margin: 4px
+        margin-bottom: 2px
+    @media screen and (max-width: 410px)
+        width: 35px
+
+#step
+    display: inline-block
+    height: 20px
+    width: 80px
+    padding: 5px
+    margin: 10px
+    text-align: center
+    border-radius: 10px
+    border: solid $border
+    background-color: $board
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        width: 50px
+        font-size: 80%
+        height: 12px
+        margin: 4px
+        margin-bottom: 2px
+    @media screen and (max-width: 410px)
+        width: 35px
+
+#stop
+    display: inline-block
+    height: 20px
+    width: 80px
+    padding: 5px
+    margin: 10px
+    margin-top: 0px
+    text-align: center
+    border-radius: 10px
+    border: solid $border
+    background-color: $board
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        width: 50px
+        font-size: 80%
+        height: 12px
+        margin: 5px
+    @media screen and (max-width: 410px)
+        width: 35px
+
+#fast
+    display: inline-block
+    height: 20px
+    width: 50px
+    padding: 5px
+    margin: 0px
+    margin-left: 10px
+    text-align: center
+    border-radius: 10px 0px 0px 10px
+    border: solid $border
+    background-color: rgb(230,250,85)
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        height: 12px
+        margin-left: 4px
+        font-size: 80%
+        width: 35px
+    @media screen and (max-width: 410px)
+        width: 25px
+
+#medium
+    display: inline-block
+    height: 20px
+    width: 65px
+    padding: 5px
+    margin: 0px
+    text-align: center
+    border: solid $border
+    background-color: $board
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        height: 12px
+        font-size: 80%
+        width: 50px
+    @media screen and (max-width: 410px)
+        width: 48px
+
+#slow
+    display: inline-block
+    height: 20px
+    width: 50px
+    padding: 5px
+    margin: 0px
+    text-align: center
+    border-radius: 0px 10px 10px 0px
+    border: solid $border
+    background-color: $board
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        height: 12px
+        font-size: 80%
+        width: 35px
+    @media screen and (max-width: 410px)
+        width: 30px
+
 
 #clear
     display: inline-block
@@ -64,15 +211,59 @@ body
     cursor: pointer
     &:hover
         background-color: $button
+    @media screen and (max-width: 610px)
+        width: 50px
+        font-size: 80%
+        height: 12px
+        margin: 4px
+        margin-bottom: 2px
+    @media screen and (max-width: 410px)
+        width: 35px
+
+#randomBoard
+    display: inline-block
+    height: 20px
+    width: 180px
+    padding: 5px
+    margin: 10px
+    margin-top: 0px
+    text-align: center
+    border-radius: 10px
+    border: solid $border
+    background-color: $board
+    cursor: pointer
+    &:hover
+        background-color: $button
+    @media screen and (max-width: 610px)
+        height: 12px
+        font-size: 70%
+        width: 110px
+    @media screen and (max-width: 410px)
+        margin-left: 1px
+        margin-right: 0px
+        width: 80px
+        font-size: 60%
+        padding: 0px
+        padding-top: 6px
+        padding-bottom: 4px
 
 #generation
     display: inline-block
     height: 20px
-    width: 150px
+    width: 170px
     padding: 5px
     margin: 10px
     text-align: center
     border-radius: 10px
     border: solid $border
     background-color: $board
+    @media screen and (max-width: 610px)
+        width: 145px
+        font-size: 80%
+        height: 12px
+        margin: 4px
+        margin-bottom: 2px
+    @media screen and (max-width: 410px)
+        margin: 0px
+        width: 110px
 
