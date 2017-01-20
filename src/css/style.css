@@ -16,7 +16,7 @@ body {
 #house {
   background-color: #a0a03c;
   width: 1000px;
-  height: 665px;
+  height: 670px;
   margin: auto;
   padding: 10px;
   border-radius: 10px;
@@ -24,17 +24,17 @@ body {
   @media screen and (max-width: 1200px) {
     #house {
       width: 600px;
-      height: 665px; } }
+      height: 670px; } }
   @media screen and (max-width: 610px) {
     #house {
       padding: 5px;
       width: 400px;
-      height: 550px; } }
+      height: 565px; } }
   @media screen and (max-width: 410px) {
     #house {
       padding: 3px;
       width: 310px;
-      height: 450px; } }
+      height: 465px; } }
 
 .square {
   display: inline-block;
