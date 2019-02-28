@@ -1,5 +1,6 @@
 *.swp
 *.map
 /.sass-cache
-/node_modules/
+#I Commented out the below line with a #
+#/node_modules/
 
